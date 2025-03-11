@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/8c3a51bc10.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Frontend-Developer</p>
+          <h1>Hi, I'm <span>Arjun</span><br />Bhadoria From India</h1>
+        </div>
+      </div>
+    </div>
+    <!-- ----------about-------------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/user.png  " alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-tittle">About Me</h1>
+            <p>
+              I consider myself a responsible, creative, with initiative and
+              punctuality, I accept with pleasure the challenges and goals that
+              your organization could assign me, with good handle of the
+              interpersonal relationships, ability to work in teams, ability to
+              work under high pressure, so as to solve problems efficiently and
+              achieve the goals set by the company and my work group. I am able
+              to work under minimal supervision in pressure situations, in
+              challenging and competitive environments. I count with quick
+              absorption of new technologies.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+              <p class="tab-links onclick" onclick="opentab('Experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents" id="Skills">
+              <ul>
+                <li>
+                  <span>Frontend-Developer</span><br />
+                  <br />Creates websites and applications using web technologies
+                  like HTML, CSS, and JavaScript, enabling users to access and
+                  engage with the site or application effectively.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents active-tab" id="Experience">
+              <ul>
+                <li>
+                  <li><span>2021-Current</span><br><br>Frontend-Developer at tata consultancy services</li>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+              <ul>
+                <li>
+                  <li><span>2021</span><br><br>BCA from Prestige Institute of Management Gwalior</li>
+                  <li><span>2018</span><br><br>12th from GreenWood Public School Gwalior</li>
+                  <li><span>2015</span><br><br>10th from GreenWood Public School Gwalior</li>
+                  
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <---------------------services---------------->
+     <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>I offer comprehensive web design services to help businesses and individuals establish a strong, visually engaging online presence. My goal is to create websites that are not only aesthetically pleasing but also functional, user-friendly, and tailored to your unique needs.</p>
+          <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX Design</h2>
+            <p>I create intuitive and visually appealing user interfaces (UI) and seamless user experiences (UX) that enhance engagement and deliver measurable results. Combining creativity, research, and functionality, I design solutions tailored to both user needs and business objectives.</p>
+          <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+     </div>
+     <!-- ---------------------portfolio-------------->
+      <div id="portfolio">
+        <div class="container">
+          <h1 class="sub-title">My Work</h1>
+          <div class="work-list">
+            <div class="work">
+              <img src="images/work-1.png">
+              <div class="layer">
+                <h3>CourshWish Education Platform Website</h3>
+                <p>CourseWish was an Education platform that build from Frontend skills.In this it provide all types of Courses that help students to build there Carrer and Upgrade there Skills.</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="images/work-2.png">
+              <div class="layer">
+                <h3>Weather App</h3>
+                <p>Weather App that build from Frontend skills HTML,CSS,JavaScript that's provide Weather data for any Contry and City.</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="images/work-3.png">
+              <div class="layer">
+                <h3>Quiz App</h3>
+                <p>In this we use Frontend Skills to develop the Quiz app.</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+      <!-- --------------------contact------------------>
+       <div id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="contact-left">
+              <h1 class="sub-title">Contact Me</h1>
+              <p><i class="fa-solid fa-paper-plane"></i>bhadoriaarjun0402@gmail.com</p>
+              <p><i class="fa-solid fa-phone"></i>+919993973042</p>
+              <div class="social-icons">
+                <a href="https://www.linkedin.com/in/arjun-bhadoria-547521230/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/arjunsingh.bhadoria"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/mainhoon_ab/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/My CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+              <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+               </form>
+               <span id="msg"></span>
+            </div>
+            </div>
+        </div>
+        <div class="copyright">
+          <p>copyright © Arjun Bhadoria. <i class="fa-solid fa-heart"></i> </p>
+        </div>
+       </div>
+    <script src="app.js"></script>
+  </body>
+</html>
